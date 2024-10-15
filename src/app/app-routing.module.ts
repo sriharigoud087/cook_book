@@ -25,7 +25,7 @@ const routes: Routes = [
       import('./user-profile/user-profile.module').then(
         (m) => m.UserProfileModule
       ),
-      canActivate: [AuthGuard]
+     // canActivate: [AuthGuard]
   },
 ];
 
